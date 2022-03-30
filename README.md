@@ -94,4 +94,27 @@ Get-Help -Examples Remove-Item
 ## Task 3
 
 #### Create a new text file named “TestFile.txt” under C:\Maximo\PowerShell\Workshop1\%USERNAME%
+```
+New-Item -Path C:\Maximo\PowerShell\Workshop1\juans -Name dir3 -ItemType Directory
+New-Item -Path C:\Maximo\PowerShell\Workshop1\juans\dir3\ -Name Testfile.txt -ItemType File
+```
 <img width="498" alt="2022-03-26 (16)" src="https://user-images.githubusercontent.com/91699247/160217489-52b289f1-3b9c-4993-8fed-b2ca1ab739d3.png">
+
+
+
+## Task 4
+#### Populate the text file you created in task 3 with all three datatypes we’ve covered: “Boolean”, “String” and “Int”
+```
+Add-Content -Path C:\Maximo\PowerShell\Workshop1\juans\dir3\Testfile.txt -Value False
+Add-Content -Path C:\Maximo\PowerShell\Workshop1\juans\dir3\Testfile.txt -Value "Primer string"
+Add-Content -Path C:\Maximo\PowerShell\Workshop1\juans\dir3\Testfile.txt -Value 34
+```
+
+## Task 5
+#### Read from the text file and use “Get-Member” to find the datatype returned
+```
+Get-Content -Path C:\Maximo\PowerShell\Workshop1\juans\dir3\Testfile.txt | Get-Member
+```
+
+## Task 6
+#### Overwrite all data within the text file that you created in task 3.
