@@ -108,7 +108,7 @@ New-Item -Path C:\Users\jsanc\PowerShell\Workshop1\dir3\ -Name Testfile.txt -Ite
 ```
 Add-Content -Path C:\Users\jsanc\PowerShell\Workshop1\dir3\Testfile.txt -Value False
 Add-Content -Path C:\Users\jsanc\PowerShell\Workshop1\dir3\Testfile.txt -Value "Primer string"
-Add-Content -Path C:\Users\\jsanc\PowerShell\Workshop1\dir3\Testfile.txt -Value 34
+Add-Content -Path C:\Users\\jsanc\PowerShell\Workshop1\dir3\Testfile.txt -Value 3423
 ```
 <img width="576" alt="2022-03-30 (20)" src="https://user-images.githubusercontent.com/91699247/160925760-c22fdb55-cff9-468d-ad40-db4afc1fe805.png">
 
