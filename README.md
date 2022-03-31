@@ -184,3 +184,10 @@ Get-History | Out-GridView
 Get-DnsClientServerAddress | Out-GridView
 ```
 <img width="828" alt="2022-03-30 (31)" src="https://user-images.githubusercontent.com/91699247/160932532-ca22fcea-e857-4e8e-bdd2-69b2ffb8dc2c.png">
+
+
+## Task 10
+#### Find the official PowerShell documentation library from Microsoft
+```
+Start-Process "https://docs.microsoft.com/es-es/powershell/"
+```
